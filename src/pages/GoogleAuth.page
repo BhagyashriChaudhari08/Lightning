@@ -1,0 +1,7 @@
+<apex:page controller="GoogleAuthController">
+    <apex:form >
+ 		<apex:commandButton value="Connect To Google" action="{!connect}"/>
+ 		<apex:commandButton value="Fetch Data Source" action="{!getDataSources}"/>
+ 	</apex:form>
+ 	{!bodyprint}
+</apex:page>

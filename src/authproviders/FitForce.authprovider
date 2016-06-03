@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://www.fitbit.com/oauth2/authorize</authorizeUrl>
+    <consumerKey>227MCC</consumerKey>
+    <consumerSecret>0mtg7FLFPwPsS8F+pKVZYCzdpPqmU7iy3TrW4yS+aghwQRj3Ygtq1w==</consumerSecret>
+    <defaultScopes>activity profile settings heartrate location nutrition sleep social weight</defaultScopes>
+    <friendlyName>FitForce</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>OpenIdConnect</providerType>
+    <sendAccessTokenInHeader>true</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>true</sendClientCredentialsInHeader>
+    <tokenUrl>https://api.fitbit.com/oauth2/token</tokenUrl>
+</AuthProvider>

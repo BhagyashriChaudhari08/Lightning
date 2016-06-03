@@ -1,0 +1,188 @@
+36.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WORKFLOW,INFO
+05:40:31.84 (84694081)|STATEMENT_EXECUTE|[1]
+05:40:31.84 (84742663)|METHOD_EXIT|[1]|LightningLoginFormController
+05:40:31.84 (84758969)|SYSTEM_MODE_ENTER|false
+05:40:31.84 (84769835)|STATEMENT_EXECUTE|[20]
+05:40:31.84 (84771795)|STATEMENT_EXECUTE|[21]
+05:40:31.84 (84793988)|METHOD_ENTRY|[21]|01p28000007YwEc|LightningLoginFormController.getAuthConfig()
+05:40:31.84 (84826841)|STATEMENT_EXECUTE|[46]
+05:40:31.84 (84828540)|STATEMENT_EXECUTE|[47]
+05:40:31.84 (84837283)|METHOD_ENTRY|[47]||System.Network.getNetworkId()
+05:40:31.84 (84867966)|METHOD_EXIT|[47]||System.Network.getNetworkId()
+05:40:31.84 (84885183)|HEAP_ALLOCATE|[47]|Bytes:4
+05:40:31.84 (84895614)|VARIABLE_SCOPE_BEGIN|[47]|networkId|Id|false|false
+05:40:31.84 (85030890)|VARIABLE_ASSIGNMENT|[47]|networkId|"0DB28000000ZeTiGAK"
+05:40:31.84 (85036589)|STATEMENT_EXECUTE|[48]
+05:40:31.84 (85046756)|HEAP_ALLOCATE|[48]|Bytes:68
+05:40:31.84 (85073690)|CONSTRUCTOR_ENTRY|[48]||<init>(Id,String)
+05:40:31.84 (97887232)|VARIABLE_SCOPE_BEGIN|[48]|authConfig|Auth.AuthConfiguration|true|false
+05:40:31.84 (97971639)|VARIABLE_ASSIGNMENT|[48]|authConfig|{"backgroundColor":"#B1BAC1","baseUrl":"https://eternusrnd-d (23 more) ...","communityUrl":"https://eternusrnd-d (24 more) ...","footerText":"salesforce.com","isCommunity":true,"logoUrl":"https://eternusrnd-d (39 more) ...","networkId":"0DB28000000ZeTiGAK","startUrl":"","urlPathPrefix":""}|0x2b3cd5e2
+05:40:31.84 (97981555)|STATEMENT_EXECUTE|[49]
+05:40:31.84 (97991742)|METHOD_EXIT|[21]|01p28000007YwEc|LightningLoginFormController.getAuthConfig()
+05:40:31.84 (97997066)|VARIABLE_SCOPE_BEGIN|[21]|authConfig|Auth.AuthConfiguration|true|false
+05:40:31.84 (98024499)|VARIABLE_ASSIGNMENT|[21]|authConfig|{"backgroundColor":"#B1BAC1","baseUrl":"https://eternusrnd-d (23 more) ...","communityUrl":"https://eternusrnd-d (24 more) ...","footerText":"salesforce.com","isCommunity":true,"logoUrl":"https://eternusrnd-d (39 more) ...","networkId":"0DB28000000ZeTiGAK","startUrl":"","urlPathPrefix":""}|0x2b3cd5e2
+05:40:31.84 (98029199)|STATEMENT_EXECUTE|[22]
+05:40:31.84 (98046252)|METHOD_ENTRY|[22]||Auth.AuthConfiguration.getUsernamePasswordEnabled()
+05:40:31.84 (103429723)|METHOD_EXIT|[22]||Auth.AuthConfiguration.getUsernamePasswordEnabled()
+05:40:31.84 (103443967)|SYSTEM_MODE_EXIT|false
+05:40:31.103 (103494644)|CUMULATIVE_LIMIT_USAGE
+05:40:31.103 (103494644)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+05:40:31.103 (103494644)|CUMULATIVE_LIMIT_USAGE_END
+
+05:40:31.84 (103542645)|CODE_UNIT_FINISHED|LightningLoginFormController.getIsUsernamePasswordEnabled
+05:40:31.84 (105492224)|EXECUTION_FINISHED
+05:40:31.106 (106956137)|EXECUTION_STARTED
+05:40:31.106 (106967158)|CODE_UNIT_STARTED|[EXTERNAL]|01p28000007YwEc|LightningLoginFormController.getIsSelfRegistrationEnabled
+05:40:31.106 (107006453)|SYSTEM_MODE_ENTER|false
+05:40:31.106 (107021451)|STATEMENT_EXECUTE|[26]
+05:40:31.106 (107025741)|STATEMENT_EXECUTE|[27]
+05:40:31.106 (107038846)|METHOD_ENTRY|[27]|01p28000007YwEc|LightningLoginFormController.getAuthConfig()
+05:40:31.106 (107063384)|STATEMENT_EXECUTE|[46]
+05:40:31.106 (107066485)|STATEMENT_EXECUTE|[47]
+05:40:31.106 (107077242)|METHOD_ENTRY|[47]||System.Network.getNetworkId()
+05:40:31.106 (107108917)|METHOD_EXIT|[47]||System.Network.getNetworkId()
+05:40:31.106 (107122572)|HEAP_ALLOCATE|[47]|Bytes:4
+05:40:31.106 (107131843)|VARIABLE_SCOPE_BEGIN|[47]|networkId|Id|false|false
+05:40:31.106 (107255703)|VARIABLE_ASSIGNMENT|[47]|networkId|"0DB28000000ZeTiGAK"
+05:40:31.106 (107260881)|STATEMENT_EXECUTE|[48]
+05:40:31.106 (107268415)|HEAP_ALLOCATE|[48]|Bytes:68
+05:40:31.106 (107286376)|CONSTRUCTOR_ENTRY|[48]||<init>(Id,String)
+05:40:31.106 (119106274)|VARIABLE_SCOPE_BEGIN|[48]|authConfig|Auth.AuthConfiguration|true|false
+05:40:31.106 (119176797)|VARIABLE_ASSIGNMENT|[48]|authConfig|{"backgroundColor":"#B1BAC1","baseUrl":"https://eternusrnd-d (23 more) ...","communityUrl":"https://eternusrnd-d (24 more) ...","footerText":"salesforce.com","isCommunity":true,"logoUrl":"https://eternusrnd-d (39 more) ...","networkId":"0DB28000000ZeTiGAK","startUrl":"","urlPathPrefix":""}|0x35306a32
+05:40:31.106 (119184200)|STATEMENT_EXECUTE|[49]
+05:40:31.106 (119193616)|METHOD_EXIT|[27]|01p28000007YwEc|LightningLoginFormController.getAuthConfig()
+05:40:31.106 (119199113)|VARIABLE_SCOPE_BEGIN|[27]|authConfig|Auth.AuthConfiguration|true|false
+05:40:31.106 (119225572)|VARIABLE_ASSIGNMENT|[27]|authConfig|{"backgroundColor":"#B1BAC1","baseUrl":"https://eternusrnd-d (23 more) ...","communityUrl":"https://eternusrnd-d (24 more) ...","footerText":"salesforce.com","isCommunity":true,"logoUrl":"https://eternusrnd-d (39 more) ...","networkId":"0DB28000000ZeTiGAK","startUrl":"","urlPathPrefix":""}|0x35306a32
+05:40:31.106 (119229573)|STATEMENT_EXECUTE|[28]
+05:40:31.106 (119244272)|METHOD_ENTRY|[28]||Auth.AuthConfiguration.getSelfRegistrationEnabled()
+05:40:31.106 (119309156)|METHOD_EXIT|[28]||Auth.AuthConfiguration.getSelfRegistrationEnabled()
+05:40:31.106 (119315844)|HEAP_ALLOCATE|[28]|Bytes:5
+05:40:31.106 (119328433)|SYSTEM_MODE_EXIT|false
+05:40:31.119 (119372676)|CUMULATIVE_LIMIT_USAGE
+05:40:31.119 (119372676)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+05:40:31.119 (119372676)|CUMULATIVE_LIMIT_USAGE_END
+
+05:40:31.106 (119413958)|CODE_UNIT_FINISHED|LightningLoginFormController.getIsSelfRegistrationEnabled
+05:40:31.106 (121378549)|EXECUTION_FINISHED
+05:40:31.122 (122889922)|EXECUTION_STARTED
+05:40:31.122 (122899627)|CODE_UNIT_STARTED|[EXTERNAL]|01p28000007YwEc|LightningLoginFormController.getForgotPasswordUrl
+05:40:31.122 (122932722)|SYSTEM_MODE_ENTER|false
+05:40:31.122 (122943031)|STATEMENT_EXECUTE|[41]
+05:40:31.122 (122945124)|STATEMENT_EXECUTE|[42]
+05:40:31.122 (122954552)|METHOD_ENTRY|[42]|01p28000007YwEc|LightningLoginFormController.getAuthConfig()
+05:40:31.122 (122972164)|STATEMENT_EXECUTE|[46]
+05:40:31.122 (122973937)|STATEMENT_EXECUTE|[47]
+05:40:31.122 (122981002)|METHOD_ENTRY|[47]||System.Network.getNetworkId()
+05:40:31.122 (123003216)|METHOD_EXIT|[47]||System.Network.getNetworkId()
+05:40:31.122 (123012691)|HEAP_ALLOCATE|[47]|Bytes:4
+05:40:31.122 (123019163)|VARIABLE_SCOPE_BEGIN|[47]|networkId|Id|false|false
+05:40:31.122 (123137063)|VARIABLE_ASSIGNMENT|[47]|networkId|"0DB28000000ZeTiGAK"
+05:40:31.122 (123141875)|STATEMENT_EXECUTE|[48]
+05:40:31.122 (123149938)|HEAP_ALLOCATE|[48]|Bytes:68
+05:40:31.122 (123170493)|CONSTRUCTOR_ENTRY|[48]||<init>(Id,String)
+05:40:31.122 (134529005)|VARIABLE_SCOPE_BEGIN|[48]|authConfig|Auth.AuthConfiguration|true|false
+05:40:31.122 (134591420)|VARIABLE_ASSIGNMENT|[48]|authConfig|{"backgroundColor":"#B1BAC1","baseUrl":"https://eternusrnd-d (23 more) ...","communityUrl":"https://eternusrnd-d (24 more) ...","footerText":"salesforce.com","isCommunity":true,"logoUrl":"https://eternusrnd-d (39 more) ...","networkId":"0DB28000000ZeTiGAK","startUrl":"","urlPathPrefix":""}|0x20eab607
+05:40:31.122 (134597476)|STATEMENT_EXECUTE|[49]
+05:40:31.122 (134604833)|METHOD_EXIT|[42]|01p28000007YwEc|LightningLoginFormController.getAuthConfig()
+05:40:31.122 (134609616)|VARIABLE_SCOPE_BEGIN|[42]|authConfig|Auth.AuthConfiguration|true|false
+05:40:31.122 (134636690)|VARIABLE_ASSIGNMENT|[42]|authConfig|{"backgroundColor":"#B1BAC1","baseUrl":"https://eternusrnd-d (23 more) ...","communityUrl":"https://eternusrnd-d (24 more) ...","footerText":"salesforce.com","isCommunity":true,"logoUrl":"https://eternusrnd-d (39 more) ...","networkId":"0DB28000000ZeTiGAK","startUrl":"","urlPathPrefix":""}|0x20eab607
+05:40:31.122 (134640900)|STATEMENT_EXECUTE|[43]
+05:40:31.122 (134652486)|METHOD_ENTRY|[43]||Auth.AuthConfiguration.getForgotPasswordUrl()
+05:40:31.122 (135680008)|METHOD_EXIT|[43]||Auth.AuthConfiguration.getForgotPasswordUrl()
+05:40:31.122 (135691418)|SYSTEM_MODE_EXIT|false
+05:40:31.135 (135734363)|CUMULATIVE_LIMIT_USAGE
+05:40:31.135 (135734363)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+05:40:31.135 (135734363)|CUMULATIVE_LIMIT_USAGE_END
+
+05:40:31.122 (135768418)|CODE_UNIT_FINISHED|LightningLoginFormController.getForgotPasswordUrl
+05:40:31.122 (137481252)|EXECUTION_FINISHED
+05:40:31.138 (138703458)|EXECUTION_STARTED
+05:40:31.138 (138712170)|CODE_UNIT_STARTED|[EXTERNAL]|01p28000007YwEc|LightningLoginFormController.getSelfRegistrationUrl
+05:40:31.138 (138738800)|SYSTEM_MODE_ENTER|false
+05:40:31.138 (138747372)|STATEMENT_EXECUTE|[32]
+05:40:31.138 (138749251)|STATEMENT_EXECUTE|[33]
+05:40:31.138 (138757063)|METHOD_ENTRY|[33]|01p28000007YwEc|LightningLoginFormController.getAuthConfig()
+05:40:31.138 (138771561)|STATEMENT_EXECUTE|[46]
+05:40:31.138 (138773147)|STATEMENT_EXECUTE|[47]
+05:40:31.138 (138779756)|METHOD_ENTRY|[47]||System.Network.getNetworkId()
+05:40:31.138 (138799390)|METHOD_EXIT|[47]||System.Network.getNetworkId()
+05:40:31.138 (138806833)|HEAP_ALLOCATE|[47]|Bytes:4
+05:40:31.138 (138813760)|VARIABLE_SCOPE_BEGIN|[47]|networkId|Id|false|false
+05:40:31.138 (138929009)|VARIABLE_ASSIGNMENT|[47]|networkId|"0DB28000000ZeTiGAK"
+05:40:31.138 (138933919)|STATEMENT_EXECUTE|[48]
+05:40:31.138 (138940843)|HEAP_ALLOCATE|[48]|Bytes:68
+05:40:31.138 (138955441)|CONSTRUCTOR_ENTRY|[48]||<init>(Id,String)
+05:40:31.138 (150175950)|VARIABLE_SCOPE_BEGIN|[48]|authConfig|Auth.AuthConfiguration|true|false
+05:40:31.138 (150231723)|VARIABLE_ASSIGNMENT|[48]|authConfig|{"backgroundColor":"#B1BAC1","baseUrl":"https://eternusrnd-d (23 more) ...","communityUrl":"https://eternusrnd-d (24 more) ...","footerText":"salesforce.com","isCommunity":true,"logoUrl":"https://eternusrnd-d (39 more) ...","networkId":"0DB28000000ZeTiGAK","startUrl":"","urlPathPrefix":""}|0x22d0bcd6
+05:40:31.138 (150237270)|STATEMENT_EXECUTE|[49]
+05:40:31.138 (150244415)|METHOD_EXIT|[33]|01p28000007YwEc|LightningLoginFormController.getAuthConfig()
+05:40:31.138 (150249062)|VARIABLE_SCOPE_BEGIN|[33]|authConfig|Auth.AuthConfiguration|true|false
+05:40:31.138 (150275120)|VARIABLE_ASSIGNMENT|[33]|authConfig|{"backgroundColor":"#B1BAC1","baseUrl":"https://eternusrnd-d (23 more) ...","communityUrl":"https://eternusrnd-d (24 more) ...","footerText":"salesforce.com","isCommunity":true,"logoUrl":"https://eternusrnd-d (39 more) ...","networkId":"0DB28000000ZeTiGAK","startUrl":"","urlPathPrefix":""}|0x22d0bcd6
+05:40:31.138 (150290738)|METHOD_ENTRY|[34]||Auth.AuthConfiguration.getSelfRegistrationEnabled()
+05:40:31.138 (150337960)|METHOD_EXIT|[34]||Auth.AuthConfiguration.getSelfRegistrationEnabled()
+05:40:31.138 (150342506)|STATEMENT_EXECUTE|[34]
+05:40:31.138 (150344124)|STATEMENT_EXECUTE|[35]
+05:40:31.138 (150350717)|METHOD_ENTRY|[35]||Auth.AuthConfiguration.getSelfRegistrationUrl()
+05:40:31.138 (150529165)|METHOD_EXIT|[35]||Auth.AuthConfiguration.getSelfRegistrationUrl()
+05:40:31.138 (150539388)|SYSTEM_MODE_EXIT|false
+05:40:31.150 (150580127)|CUMULATIVE_LIMIT_USAGE
+05:40:31.150 (150580127)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+05:40:31.150 (150580127)|CUMULATIVE_LIMIT_USAGE_END
+
+05:40:31.138 (150621633)|CODE_UNIT_FINISHED|LightningLoginFormController.getSelfRegistrationUrl
+05:40:31.138 (152505332)|EXECUTION_FINISHED
+05:40:31.160 (160938755)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:18
+05:40:31.160 (160979091)|SYSTEM_METHOD_ENTRY|[1]|SocialLoginController.SocialLoginController()
+05:40:31.160 (160985417)|STATEMENT_EXECUTE|[1]

@@ -1,0 +1,253 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p28000007ZH3kAAG",
+    "innerClasses": [],
+    "interfaces": [
+        "Auth.RegistrationHandler"
+    ],
+    "key": "01p28000007ZH3kAAG",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSiteAdminUserId",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "setSiteAdminUserId",
+            "parameters": [
+                {
+                    "name": "siteAdminId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 9
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "createUser",
+            "parameters": [
+                {
+                    "name": "portalId",
+                    "type": "Id"
+                },
+                {
+                    "name": "data",
+                    "type": "UserData"
+                }
+            ],
+            "references": [],
+            "returnType": "User",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 32
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "updateUser",
+            "parameters": [
+                {
+                    "name": "userId",
+                    "type": "Id"
+                },
+                {
+                    "name": "portalId",
+                    "type": "Id"
+                },
+                {
+                    "name": "data",
+                    "type": "UserData"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ChatterAnswersAuthProviderRegistration",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "adminId",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "ChatterAnswersAuthProviderRegistration",
+        "references": [],
+        "type": "ChatterAnswersAuthProviderRegistration"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "siteAdminId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "portalId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "data",
+            "references": [],
+            "type": "UserData"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "userId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "portalId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "data",
+            "references": [],
+            "type": "UserData"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "sp",
+            "references": [],
+            "type": "Savepoint"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        }
+    ]
+}

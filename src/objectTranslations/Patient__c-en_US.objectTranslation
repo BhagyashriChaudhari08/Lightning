@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Patient</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Patients</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Avatar --></label>
+        <name>Avatar__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateOfBirth --></label>
+        <name>DateOfBirth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Name --></label>
+        <name>Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Goal --></label>
+        <name>Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heart Rate --></label>
+        <name>Heart_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height --></label>
+        <name>Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient_Id --></label>
+        <name>Patient_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Picture --></label>
+        <name>Profile_Picture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Steps Completed --></label>
+        <name>Steps_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- WaterUnit --></label>
+        <name>WaterUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>Weight__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

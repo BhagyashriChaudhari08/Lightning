@@ -1,0 +1,24 @@
+<apex:page >
+     <apex:includeLightning />
+
+    <div id="lightning" />
+
+    <script>
+        $Lightning.use("c:lcvfTest", function() {
+          $Lightning.createComponent("c:PatientWrapperClass",
+          { },
+          "lightning",
+          function(cmp) {
+            // do some stuff
+          });
+        });
+    	$Lightning.use("c:lcvfTest", function() {
+          $Lightning.createComponent("c:FitbitWrapperDetails",
+          { },
+          "lightning",
+          function(cmp) {
+            // do some stuff
+          });
+        });
+    </script>
+</apex:page>
